@@ -1,0 +1,21 @@
+[package]
+name = "burning_wood_versus"
+version = "0.3.0"
+edition = "2024"
+
+[package.metadata.turbo]
+user = "471ae777-7772-4733-9a32-fc63bae290d7"
+
+[dependencies]
+turbo = { version = "5.1.0", package = "turbo-genesis-sdk" }
+
+[features]
+default = []
+lighting = []
+debug = []
+
+[lib]
+crate-type = ["cdylib"]
+
+[lints.rust]
+unexpected_cfgs = { level = "allow" }

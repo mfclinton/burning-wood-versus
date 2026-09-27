@@ -1,0 +1,17 @@
+# This repo is a source-only export; the art, audio, and web build are not included.
+# These entries exist so a local checkout stays clean.
+
+# Rust
+/target
+
+# Local config
+.env
+
+# IDE
+.vs/
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db

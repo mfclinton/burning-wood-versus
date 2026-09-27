@@ -1,0 +1,16 @@
+name = "BurningWoodVersus"
+version = "0.2.0"
+description = "An awesome game made in Turbo!"
+authors = ["Margoon", "UnitedFailures", "MrAozora"]
+
+[canvas]
+width = 960
+height = 540
+auto-size = 1.0
+
+[font]
+default-size = 100
+default-font = "Jersey20"
+
+[turbo-os]
+api-url = "https://tramis.turbo.computer"
